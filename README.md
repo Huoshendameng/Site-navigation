@@ -1,6 +1,8 @@
-# suibianwanwan
+# Site-navigation
 
-> A Vue.js project
+> 1.随便做了个小导航（还没做完）
+  2.下面的列表是用Nodejs服务爬虫爬头条数据返回的
+  3.就是个日常练习的小项目
 
 ## Build Setup
 
@@ -17,5 +19,3 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
