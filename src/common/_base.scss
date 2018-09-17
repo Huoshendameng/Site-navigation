@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix{
+    zoom:1;
+}
+.col-red{
+    color: #EE3D3D !important;
+}
+.col-green{
+    color: #0DB352 !important;
+}
+em,i{
+    font-style: normal;
+}
+.disabled-main-btn{
+    background-color: #D9D9D9 !important;
+    color: #fff;
+}
+
+// PX 根据 font-size 100px 基准，375px宽度，750px设计稿宽度自动计算rem
+@function px2rem($value) {
+    @return ($value / 200) + rem;
+}

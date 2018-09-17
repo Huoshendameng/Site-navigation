@@ -1,0 +1,3 @@
+@function bg($route,$url,$tag){
+  @return url('https://storage.360buyimg.com/wx-program/' + $route + $url + '?id=' + $tag );
+}
